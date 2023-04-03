@@ -19,7 +19,7 @@ const renderItem = ({item}) => (
 
 const renderHiddenItem = () => (
   <View style={styles.rowBack}>
-    <Text style={styles.text}>Delete</Text>
+    <Text style={styles.text}>Yes</Text>
   </View>
 );
 
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
   },
   rowBack: {
     alignItems: 'center',
-    backgroundColor: '#FF0000',
+    backgroundColor: 'green',
     flexDirection: 'row',
     justifyContent: 'space-between',
     paddingLeft: 15,
